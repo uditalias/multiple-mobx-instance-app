@@ -1,0 +1,41 @@
+{
+  "name": "multiple-mobx-instance-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-decorators": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uditalias/multiple-mobx-instance-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uditalias/multiple-mobx-instance-app/issues"
+  },
+  "homepage": "https://github.com/uditalias/multiple-mobx-instance-app#readme",
+  "dependencies": {
+    "mobx": "^5.0.3",
+    "mobx-react": "^5.2.3",
+    "multiple-mobx-instance-module": "github:uditalias/multiple-mobx-instance-module",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
